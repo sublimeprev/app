@@ -1,0 +1,27 @@
+.buttonDefault{
+    text-decoration: none;
+    width: 15%;
+    border: solid 1px #ffff;
+    color:#ffff;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.buttonDefault:hover{
+    background-color: rgba(30,30,30);
+    opacity: 70%;
+    border: solid 0px #ffff;
+}
+
+@media screen and (max-width: 768px){
+    .buttonDefault{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .buttonDefault{
+        width: 50%;
+    }
+}

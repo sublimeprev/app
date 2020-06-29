@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.homeImage{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(../../img/homeImage.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-top: 300px;
+    padding-bottom: 400px;
+}
+
+.titleImg{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 1px 1px 0px rgb(83, 77, 77);
+}
+
+.pImg{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px rgb(83, 77, 77);
+}
+
+.buttonParallax{
+    font-family: 'Roboto' sans-serif;
+}
+
+.buttonParallax:hover{
+    color:#c69f36;
+    background-color: #4d4d4d;
+}
+
+@media screen and (max-width: 500px){
+    .titleImg{
+        font-size: 2em;
+    }
+
+    .pImg{
+        margin-top: 0;
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,60 @@
+.logo{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    width: 10%;
+}
+
+.simbolLogo{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.sublimeLogo{
+    width: 80%;
+    height: 10px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.menuHamburguer{
+    display: none;
+}
+
+@media screen and (max-width: 752px){
+    .logo{
+        width: 15%;
+    }
+
+    .nav{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .logo{
+        width: 50%;
+    }
+
+    .nav{
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    .menuHamburguer{
+        display: flex;
+        width: 30%;
+        color: #cdc3a5;
+    }
+}

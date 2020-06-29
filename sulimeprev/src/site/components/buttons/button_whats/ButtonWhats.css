@@ -1,0 +1,14 @@
+.bntWhatsFixo{
+    height: 60px;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 2;
+ }
+ 
+ @media screen and (max-width:780px){
+    .bntWhatsFixo{
+       height: 50px;
+       right: 15px;
+    }
+ }
