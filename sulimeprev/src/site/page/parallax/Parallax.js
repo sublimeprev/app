@@ -9,7 +9,7 @@ export default function Parallax(){
                 Salario Maternidade
             </h1>
             <p className="pImg">
-                Saiba como receber o seu Salario Maternidade agora mesmo.
+                Saiba como receber o seu agora mesmo
             </p>
 
             <ButtonDefault name="Fale com um consultor"/>

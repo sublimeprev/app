@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.missaoVisaoValores{
+    font-family: 'Poppins', sans-serif;
+    color: #302d2d;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.missao{
+    padding:40px;
+    width: 30%;
+}
+
+.visao{
+    width: 30%;
+}
+
+.valores{
+    width: 30%;
+}
+
+.imgMissaoVisaoValore{
+    width: 50%;
+    border-radius: 50px;
+}
+
+
+@media screen and (max-width: 768px){
+    .missaoVisaoValores{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .missao{
+        padding: 0px;
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    
+    .visao{
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    
+    .valores{
+        width: 90%;
+        padding-bottom: 30px;
+    }
+}

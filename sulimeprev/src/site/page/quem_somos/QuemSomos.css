@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-
-.homeImage{
+.contentQuemSomos{
     font-family: 'Roboto', sans-serif;
     color: #fff;
     text-shadow: 1px 1px 0px rgb(5, 5, 5);
@@ -9,40 +8,36 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-image: url(../../img/homeImage.jpg);
+    background-image: url(../../img/students-working-on-project.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    color: #ffffff;
     padding-top: 300px;
     padding-bottom: 400px;
 }
 
-.titleImg{
+.titleQuemSomos{
     font-size: 3em;
 }
 
-.pImg{
+.pQuemSomos{
     margin-top: 0px;
     margin-bottom: 50px;
     font-size: 1.5em;
 }
 
-.buttonParallax:hover{
-    color:#c69f36;
-    background-color: #4d4d4d;
-}
-
 @media screen and (max-width: 500px){
-    .homeImage{
-        padding-bottom: 300px;
+    .contentQuemSomos{
+        padding-bottom: 200px;
     }
 
-    .titleImg{
+    .titleQuemSomos{
         font-size: 2em;
     }
 
-    .pImg{
+    .pQuemSomos{
         margin-top: 0;
         font-size: 1em;
     }
