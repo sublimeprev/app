@@ -3,7 +3,8 @@ import './ButtonHeader.css';
 
 export default function ButtonHeader({
     name,
-    href
+    href,
+    target
 }){
     return (
         <a className="buttonHeader" href={href}>

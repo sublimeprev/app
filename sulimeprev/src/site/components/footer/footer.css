@@ -1,0 +1,14 @@
+.footerSite{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(30,30,30);
+    width: 100%;
+    opacity: 80%;
+    height:auto;
+}
+
+@media screen and (max-width: 768px){
+    .footerSite p{
+      font-size: 0.7em;
+    }
+}

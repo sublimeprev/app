@@ -8,6 +8,12 @@ import HeaderContainer from '../headerContainer/HeaderContainer';
 import ButtonHeader from '../buttonHeader/ButtonHeader';
 
 export default function HeaderContent(){
+
+    const resetarCheckMenu = () => {
+        var elemento = window.document.getElementById("btMenu");
+        elemento.checked=false
+    }
+
     return (
         <>
             <HeaderContainer>
@@ -21,9 +27,47 @@ export default function HeaderContent(){
                     <ButtonHeader name="SERVIÇOS" href="#servicos"/>
                     <ButtonHeader name="CONTATO" href="#contato"/>
                     <ButtonHeader name="ÁREA DA MAMÃE"/>
-                    <div className="menuHamburguer">
+                    <input type="checkbox" id="btMenu"></input>
+                    <label htmlFor="btMenu"  className="menuHamburguer">
                         <ListIcon style={{fontSize: "3.0rem"}}/>
-                    </div>
+                    </label>
+                    <ul className="navResposinvo">
+                        <li className="liNav">
+                            <a className="linkNav" href="#home" >
+                                <label className="labelName" onClick={resetarCheckMenu}>
+                                    HOME
+                                </label>
+                            </a>
+                        </li>
+                        <li className="liNav">
+                            <a className="linkNav" href="#quemSomos">
+                                <label className="labelName" onClick={resetarCheckMenu}>
+                                    QUEM SOMOS
+                                </label>
+                            </a>
+                        </li>
+                        <li className="liNav">
+                            <a className="linkNav" href="#servicos">
+                                <label className="labelName" onClick={resetarCheckMenu}>
+                                    SERVIÇOS
+                                </label>
+                            </a>
+                        </li>
+                        <li className="liNav">
+                            <a className="linkNav" href="#contato">
+                                <label className="labelName" onClick={resetarCheckMenu}>
+                                    CONTATO
+                                </label>
+                            </a>
+                        </li>
+                        {/* <li className="liNav">
+                            <a className="linkNav" href="#contato">
+                                <label className="labelName" onClick={resetarCheckMenu}>
+                                    ÁREA DA MAMÂE
+                                </label>
+                            </a>
+                        </li> */}
+                    </ul>
                 </div>
             </HeaderContainer>
         </>
