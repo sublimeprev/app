@@ -1,14 +1,32 @@
 .footerSite{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: rgba(30,30,30);
+    background-color:#fff;
     width: 100%;
     opacity: 80%;
     height:auto;
 }
 
+.footerSite p{
+  background-color: rgba(30,30,30);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footerSite h1{
+  width: 100%;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
 @media screen and (max-width: 768px){
     .footerSite p{
       font-size: 0.7em;
+    }
+
+    .footerSite h1{
+      font-size: 1em;
     }
 }

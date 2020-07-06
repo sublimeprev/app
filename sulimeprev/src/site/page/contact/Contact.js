@@ -1,12 +1,12 @@
 import React from 'react';
-import ImgContact from '../../img/contact.png';
+import ImgContact from '../../img/contact_img.png';
 import ImgRedeSocial from '../../img/redes_sociais.png';
 import {AiFillInstagram } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { FiPhone } from "react-icons/fi";
 import { FaFacebook } from "react-icons/fa";
-import LogoSystem from '../../img/logoSystem.jpeg';
+import LogoSystem from '../../img/logo_transparente.png';
 import './contact.css';
 
 export default function Contact(){
@@ -29,14 +29,21 @@ export default function Contact(){
                     </h1>
                    
                     <p>
-                        <AiOutlineWhatsApp style={{margin:"-0.5%", marginRight:"2%"}}/> 51 99518-5439
+                        <AiOutlineWhatsApp style={{margin:"-0.5%", marginRight:"2%"}}/> 51 98451-2571
                     </p>
                     <h1>
+                        Whats:
+                    </h1>
+                   
+                    <p>
+                        <AiOutlineWhatsApp style={{margin:"-0.5%", marginRight:"2%"}}/> 51 99518-5439
+                    </p>
+                    {/* <h1>
                         Telefone:
                     </h1>
                     <p>
                         <FiPhone style={{margin:"-0.5%", marginRight:"2%"}}/> 51 3035-5547
-                    </p>
+                    </p> */}
                 </div>
             </div>
             <div className="contentGeral">
@@ -57,7 +64,6 @@ export default function Contact(){
                         <img className="logoSyst" src={LogoSystem} alt="Logo sistema"/>
                 </a>
             </div>
-            
         </section>
     )
 }

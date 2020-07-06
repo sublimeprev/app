@@ -1,7 +1,6 @@
 import React from 'react';
 import './HeaderContent.css';
 import Logo from '../../../img/logo_transparente.png';
-import PregnantWomanIcon from '@material-ui/icons/PregnantWoman';
 import ListIcon from '@material-ui/icons/List';
 import Sublime from '../../../img/sublime.png';
 import HeaderContainer from '../headerContainer/HeaderContainer';
@@ -26,7 +25,7 @@ export default function HeaderContent(){
                     <ButtonHeader name="QUEM SOMOS" href="#quemSomos"/>
                     <ButtonHeader name="SERVIÇOS" href="#servicos"/>
                     <ButtonHeader name="CONTATO" href="#contato"/>
-                    <ButtonHeader name="ÁREA DA MAMÃE"/>
+                    {/* <ButtonHeader name="ÁREA DA MAMÃE"/> */}
                     <input type="checkbox" id="btMenu"></input>
                     <label htmlFor="btMenu"  className="menuHamburguer">
                         <ListIcon style={{fontSize: "3.0rem"}}/>
