@@ -4,7 +4,6 @@ import ImgRedeSocial from '../../img/redes_sociais.png';
 import {AiFillInstagram } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
-import { FiPhone } from "react-icons/fi";
 import { FaFacebook } from "react-icons/fa";
 import LogoSystem from '../../img/logo_transparente.png';
 import './contact.css';
@@ -50,17 +49,17 @@ export default function Contact(){
                 <img className="bannerContac" src={ImgRedeSocial} alt="Banner Contact"/>
                 <div className="contactContent">
                     <h1 className="links">
-                        <a className="redeSocial" href="https://www.facebook.com/sublimePrevSalariomaternidade/" target="_blank">
+                        <a className="redeSocial" href="https://www.facebook.com/sublimePrevSalariomaternidade/" target="_blank" rel="noopener noreferrer">
                             <FaFacebook/>
                         </a>
                     </h1>
                     <h1 className="links">
-                        <a className="redeSocial" href="https://www.instagram.com/invites/contact/?i=nny2ub04nmva&utm_content=hgmww8g" target="_blank">
+                        <a className="redeSocial" href="https://www.instagram.com/invites/contact/?i=nny2ub04nmva&utm_content=hgmww8g" target="_blank" rel="noopener noreferrer">
                             <AiFillInstagram/>
                         </a>
                     </h1>
                 </div>
-                <a className="redeSocial" target="_blank">
+                <a className="redeSocial" href="https://sublime-prev.herokuapp.com/#/login" target="_blank" rel="noopener noreferrer">
                         <img className="logoSyst" src={LogoSystem} alt="Logo sistema"/>
                 </a>
             </div>

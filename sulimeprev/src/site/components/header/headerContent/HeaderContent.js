@@ -5,6 +5,7 @@ import ListIcon from '@material-ui/icons/List';
 import Sublime from '../../../img/sublime.png';
 import HeaderContainer from '../headerContainer/HeaderContainer';
 import ButtonHeader from '../buttonHeader/ButtonHeader';
+import { Link } from 'react-router-dom';
 
 export default function HeaderContent(){
 
@@ -25,7 +26,10 @@ export default function HeaderContent(){
                     <ButtonHeader name="QUEM SOMOS" href="#quemSomos"/>
                     <ButtonHeader name="SERVIÇOS" href="#servicos"/>
                     <ButtonHeader name="CONTATO" href="#contato"/>
-                    {/* <ButtonHeader name="ÁREA DA MAMÃE"/> */}
+                    {/* <ButtonHeader name="ÁREA DA MAMÃE" href="#areaDaMamae"/> */}
+                    <Link className="buttonHeader" to={'/areaDaMamae'}>
+                        ÁREA DA MAMÃE
+                    </Link>
                     <input type="checkbox" id="btMenu"></input>
                     <label htmlFor="btMenu"  className="menuHamburguer">
                         <ListIcon style={{fontSize: "3.0rem"}}/>
@@ -59,13 +63,13 @@ export default function HeaderContent(){
                                 </label>
                             </a>
                         </li>
-                        {/* <li className="liNav">
-                            <a className="linkNav" href="#contato">
+                        <li className="liNav">
+                            <Link className="linkNav" to={'/areaDaMamae'}>
                                 <label className="labelName" onClick={resetarCheckMenu}>
                                     ÁREA DA MAMÂE
                                 </label>
-                            </a>
-                        </li> */}
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </HeaderContainer>
